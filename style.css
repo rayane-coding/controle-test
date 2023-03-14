@@ -34,12 +34,14 @@ body
     padding-right: auto;
     padding-top: 2rem;
 }
+
 #definition h2
 {
     text-align: center;
     font-size: small;
     color: white;
 }
+
 .navbar
 {
     border-radius: 5 px;
@@ -51,6 +53,7 @@ body
     width: 100%;
     box-sizing: border-box;
 }
+
 .navbar a
 {
     color: white;
@@ -61,19 +64,23 @@ body
     font-size: 2rem;
     font-weight: bold;
 }
+
 .navbar .nav-links ul
 {
     display: flex;
 }
+
 .navbar .nav-links ul li
 {
     margin:0 1.5rem;
 }
+
 .navbar .nav-links ul li.active a
 {
     color:rgb(238, 255, 0);
     font-weight:600;
 }
+
 #Inscription
 {
     text-align: center;
@@ -84,6 +91,7 @@ body
     border-style: solid;
     border-radius: 1em;
 }
+
 #Inscription h2
 {
     color: white;
@@ -91,6 +99,7 @@ body
     text-align: center;
     
 }
+
 #Inscription h3
 {
     text-align: justify;
@@ -100,6 +109,7 @@ body
     font-size: larger;
     position: relative;
 }
+
 #Inscription p
 {
     color: white;
@@ -117,6 +127,7 @@ body
     border-style: solid;
     border-radius: 1em;
 }
+
 #info h2
 {
     text-align: center;
@@ -124,6 +135,7 @@ body
     color: white;
     width: 30rem;
 }
+
 #info p
 {
     text-align: center;
@@ -132,3 +144,13 @@ body
     width: 30rem;
 }
 
+#info span
+{
+    color: rgb(255, 0, 0);
+    font-style: italic ;
+    font-weight: bold;
+}
+#compet
+{
+
+}
