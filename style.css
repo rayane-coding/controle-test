@@ -85,6 +85,9 @@ body
 
 #Inscription
 {
+    margin-top: 2em;
+    margin-left: 43.1em;
+    position: relative;
     text-align: center;
     width: 30rem;
     border-color: dimgray;
@@ -122,6 +125,7 @@ body
 
 #info
 {
+    text-align: center;
     position: relative;
     width: 30rem;
     border-color: dimgray;
@@ -129,7 +133,7 @@ body
     border: 2px;
     border-style: solid;
     border-radius: 1em;
-    top: 12em;
+    bottom: 12.5rem;
 }
 
 #info h2
@@ -157,27 +161,27 @@ body
 
 #compet
 {
-    position: absolute;
-    width: 30rem;
+    position: relative;
     border-color: dimgray;
     font-size: small;
     border: 2px;
-    border-style: solid;
+    border-style:solid;
     border-radius: 1em;
-    right: 17em;
-    top: 55rem;
+    top: 12em;
 }
 
 #compet h2
 {
+    text-align: center;
     color: white;
     text-align: center;
-    font-size: larger;
+    font-size: 25px;
 }
 
 #compet a
 {
-    margin-left: 11rem;
+    text-align: center;
+    margin-left: 34.5em;
 }
 
 /* IMAGE 1 */
@@ -188,10 +192,8 @@ body
     border-style: solid;
     border-radius: 1em;
     position:absolute;
-    width: 410px;
-    top:25em;
-    right: 15em;
-    height: 277px;
+    left: 22em;
+    top: 15em;
 }
 
 /* LOGO */
@@ -201,4 +203,11 @@ body
     background-color: dimgray;
     top: 0;
     left: 0;
+}
+/* logo grapp*/
+.logo2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
