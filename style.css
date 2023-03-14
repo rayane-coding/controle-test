@@ -1,0 +1,34 @@
+body
+{
+    background-color: dimgray;
+}
+
+.main  
+{
+    height: 150rem;
+    width: 65rem;
+    margin: 5em auto;
+    
+}
+                        /*page 1 */
+.html1header
+{
+    background-color: darkorange;
+    height: 10rem;
+    display:flex;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#titre
+{
+    padding-left: 20rem ;
+    padding-right: auto;
+    padding-top: 2rem;
+}
+.definition
+{
+    font-size: 1rem;
+}
+
