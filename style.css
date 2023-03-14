@@ -1,16 +1,14 @@
 body
 {
     font-size: 1rem;
-    text-align: center;
     background-color: dimgray;
 }
 
 .main  
 {
     font-size: 1rem;
-    text-align: center;
     background-color: darkorange;
-    height: 150rem;
+    height: 60rem;
     width: 65rem;
     margin: 5em auto;
     
@@ -38,12 +36,13 @@ body
 }
 #definition h2
 {
+    text-align: center;
     font-size: small;
     color: white;
 }
 .navbar
 {
-    border-radius: 5px;
+    border-radius: 5 px;
     border: solid;
     background-color: rgb(85, 85, 85);
     align-items: center;
@@ -74,5 +73,62 @@ body
 {
     color:rgb(238, 255, 0);
     font-weight:600;
+}
+#Inscription
+{
+    text-align: center;
+    width: 30rem;
+    border-color: dimgray;
+    font-size: small;
+    border: 2px;
+    border-style: solid;
+    border-radius: 1em;
+}
+#Inscription h2
+{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    
+}
+#Inscription h3
+{
+    text-align: justify;
+    text-align: center;
+    color: white;
+    width: 30rem;
+    font-size: larger;
+    position: relative;
+}
+#Inscription p
+{
+    color: white;
+    width:30rem;
+    position: relative;
+    display: flex;
+}
+
+#info
+{
+    width: 30rem;
+    border-color: dimgray;
+    font-size: small;
+    border: 2px;
+    border-style: solid;
+    border-radius: 1em;
+}
+#info h2
+{
+    text-align: center;
+    font-size: larger;
+    color: white;
+    width: 30rem;
+}
+#info p
+{
+    text-align: center;
+    font-size: larger;
+    color: white;
+    width: 30rem;
 }
 
