@@ -8,7 +8,7 @@ body
 {
     font-size: 1rem;
     background-color: darkorange;
-    height: 60rem;
+    height: 55rem;
     width: 65rem;
     margin: 5em auto;
     
@@ -61,6 +61,8 @@ body
 
 .navbar .logo
 {
+    position: relative;
+    left: 2em;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -120,12 +122,14 @@ body
 
 #info
 {
+    position: relative;
     width: 30rem;
     border-color: dimgray;
     font-size: small;
     border: 2px;
     border-style: solid;
     border-radius: 1em;
+    top: 12em;
 }
 
 #info h2
@@ -150,7 +154,51 @@ body
     font-style: italic ;
     font-weight: bold;
 }
+
 #compet
 {
+    position: absolute;
+    width: 30rem;
+    border-color: dimgray;
+    font-size: small;
+    border: 2px;
+    border-style: solid;
+    border-radius: 1em;
+    right: 17em;
+    top: 55rem;
+}
 
+#compet h2
+{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+#compet a
+{
+    margin-left: 11rem;
+}
+
+/* IMAGE 1 */
+
+.image1
+{ 
+    border: black;
+    border-style: solid;
+    border-radius: 1em;
+    position:absolute;
+    width: 410px;
+    top:25em;
+    right: 15em;
+    height: 277px;
+}
+
+/* LOGO */
+.logo1
+{
+    position: absolute;
+    background-color: dimgray;
+    top: 0;
+    left: 0;
 }
