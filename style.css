@@ -1,10 +1,15 @@
 body
 {
+    font-size: 1rem;
+    text-align: center;
     background-color: dimgray;
 }
 
 .main  
 {
+    font-size: 1rem;
+    text-align: center;
+    background-color: darkorange;
     height: 150rem;
     width: 65rem;
     margin: 5em auto;
@@ -14,21 +19,28 @@ body
 .html1header
 {
     background-color: darkorange;
-    height: 10rem;
+    height: 5rem;
     display:flex;
     position: relative;
     top: 0;
     right: 0;
+    text-align: center;
 }
 
-#titre
+#titre h1 
 {
+    
+    color: white;
+    text-align: center;
     padding-left: 20rem ;
     padding-right: auto;
     padding-top: 2rem;
 }
-.definition
+#definition h2
 {
-    font-size: 1rem;
+    font-size: small;
+    color: white;
 }
+
+
 
