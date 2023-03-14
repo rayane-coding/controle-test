@@ -41,6 +41,38 @@ body
     font-size: small;
     color: white;
 }
+.navbar
+{
+    border-radius: 5px;
+    border: solid;
+    background-color: rgb(85, 85, 85);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar a
+{
+    color: white;
+}
 
-
+.navbar .logo
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar .nav-links ul
+{
+    display: flex;
+}
+.navbar .nav-links ul li
+{
+    margin:0 1.5rem;
+}
+.navbar .nav-links ul li.active a
+{
+    color:rgb(238, 255, 0);
+    font-weight:600;
+}
 
