@@ -167,7 +167,7 @@ body
     border: 2px;
     border-style:solid;
     border-radius: 1em;
-    top: 12em;
+    top: 11.5em;
 }
 
 #compet h2
@@ -180,8 +180,8 @@ body
 
 #compet a
 {
-    text-align: center;
-    margin-left: 34.5em;
+    font-size: x-large;
+    margin-left: 17.5em;
 }
 
 /* IMAGE 1 */
