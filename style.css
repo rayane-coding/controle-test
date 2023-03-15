@@ -148,14 +148,19 @@ body
 #info p
 {
     text-align: center;
-    font-size: larger;
+    font-size:larger;
     color: white;
     width: 30rem;
 }
 
+#ville
+{
+    color:rgb(0, 60, 255);
+}
+
 #info span
 {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     font-style: italic ;
     font-weight: bold;
 }
@@ -211,4 +216,56 @@ body
     position: absolute;
     top: 0;
     right: 0;
+}
+
+                        /*page 2*/
+
+.debutant
+{
+    display: inline-block;
+    margin-top: 0rem;
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+    width: 33%;
+    border-color: dimgray;
+    font-size: small;
+    border: 2px;
+    border-style: solid;
+    border-radius: 1em;
+    height: 25%;
+}
+
+
+.intermédiaire
+{
+    display: inline-block;
+    margin-top: 0rem;
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+    width: 33%;
+    border-color: dimgray;
+    font-size: small;
+    border: 2px;
+    border-style: solid;
+    border-radius: 1em;
+    height: 25%;
+    
+}
+.confirmé
+{
+    display: inline-block;
+    margin-top: 0rem;
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+    width: 33%;
+    border-color: dimgray;
+    font-size: small;
+    border: 2px;
+    border-style: solid;
+    border-radius: 1em;
+    height: 25%;
+    
 }
