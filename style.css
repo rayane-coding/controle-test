@@ -9,7 +9,7 @@ body
 }
 .imagedefond
 {
-    background-image: url(https://wallpapercave.com/wp/wp3516826.jpg);
+    background-color: black;
     height: 100%;
     width: 100%;
 }
@@ -17,7 +17,7 @@ body
 .main  
 {
     text-align: center;
-    background-image: url(https://wallpapercave.com/wp/wp3516826.jpg);
+    background-color: black;
     font-size: 1rem;
     background-color: rgb(0, 0, 0);
     height: 55rem;
@@ -27,8 +27,7 @@ body
                         /*page 1 */
 .html1header
 {
-    background-image: url(https://wallpapercave.com/wp/wp3516826.jpg);
-    background-color:rgb(255, 255, 255);
+    background-color: black;
     height: 5rem;
     display:flex;
     position: relative;
@@ -48,14 +47,14 @@ body
 }
 #definition
 {
-    background-image: url(https://wallpapercave.com/wp/wp3516826.jpg);
+    background-color: black;
     margin-bottom: 0;
     height: fit-content;
 }
 
 #definition h2
 {
-    background-image: url(https://wallpapercave.com/wp/wp3516826.jpg);
+    background-color: black;
     text-align: center;
     font-size: medium;
     color: rgb(255, 255, 255);
@@ -65,8 +64,8 @@ body
 {
     border-radius: 5 px;
     border: solid;
-    background-color: rgb(85, 85, 85);
-    background-image: url(https://wallpapercave.com/wp/wp3516826.jpg);
+    background-color: rgb(87, 87, 87);
+    background-color: black;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -79,15 +78,6 @@ body
     color: rgb(255, 123, 0);
 }
 
-.navbar .logo
-{
-    color: white;
-    position: relative;
-    left: 2em;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
 .navbar .nav-links ul
 {
     display: flex;
@@ -95,7 +85,7 @@ body
 
 .navbar .nav-links ul li
 {
-    margin: 0 6.3rem;
+    margin: 0 6rem;
 }
 
 .navbar .nav-links ul li.active a
@@ -106,9 +96,9 @@ body
 
 #Inscription
 {
-    text-align: left;
+    text-align: center;
     color: white;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-triple-gold-light-line-arrow-direction-dark-grey-modern-luxury-futuristic-background_33869-1721.jpg);
+    background-color: black;
     display: inline-block;
     position: relative;
     width: 50%;
@@ -119,6 +109,7 @@ body
     border-right-color: black ;
     border-bottom-color: black ;
     border-top-right-radius: 0% ;
+    border-bottom-left-radius:1%;
     margin: auto;
     float: none;
     right:15rem;
@@ -126,17 +117,8 @@ body
     height: 15rem;
 }
 
-#Inscription h2
-{
-    color: white;
-    font-size: larger;
-    text-align: center;
-    
-}
-
 #Inscription h3
 {
-    text-align: justify;
     text-align: center;
     color: white;
     width: 30rem;
@@ -146,6 +128,7 @@ body
 
 #Inscription p
 {
+    font-size: larger;
     color: white;
     width:30rem;
     position: relative;
@@ -154,27 +137,27 @@ body
 
 #info
 {
-    color: white;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-triple-gold-light-line-arrow-direction-dark-grey-modern-luxury-futuristic-background_33869-1721.jpg);
+    color: rgb(255, 255, 255);
+    background-color: black;
     display: flexbox;
     margin-top: 0rem;
     margin-left: 0;
     position: relative;
     width: 40%;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     border: 2px;
     border-style: solid;
     border-radius: 1rem;
     border-left-color: black ;
     border-top-left-radius:0%;
+    border-top-right-radius:0%;
     border-top-color: black;
-    border-bottom-left-radius:5%;
+    border-bottom-left-radius:1%;
     height: 25%;
     float: none;
-    bottom: 2rem;
-    left: 38rem;
-    top:10rem;
+    left: 39rem;
     height: 13rem;
+    bottom: 8rem;
 }
 
 #info h2
@@ -186,7 +169,7 @@ body
 
 #info p
 {
-    text-align: left;
+    text-align: center;
     font-size:large;
     color: white;
 }
@@ -206,7 +189,8 @@ body
 #compet
 {
     color: white;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-triple-gold-light-line-arrow-direction-dark-grey-modern-luxury-futuristic-background_33869-1721.jpg);    display: inline-block;
+    background-color: black;
+    display: inline-block;
     margin-top: 0rem;
     margin-left: 0;
     position: relative;
@@ -215,13 +199,12 @@ body
     font-size: small;
     border: 2px;
     border-style: solid;
-    border-radius: 1em;
     border-top-color: black;
     border-left-color: black;
     border-bottom-color: black;
     float: none;
-    bottom: 23rem;
-    left: 20.5rem;
+    bottom: 30rem;
+    left: 21.7rem;
 }
 
 #compet h2
@@ -244,16 +227,27 @@ body
 .image1
 { 
     width: 29.9rem;
-    display: flexbox;
+    display: inherit;
     border: black;
     border-width: 1rem;
     border-style: solid;
     border-radius: 1em;
     position:relative;
-    right: 37rem;
-    bottom: 18rem;
+    right: 39rem;
+    bottom: 22.5rem;
 }
-
+    /*IMAGE 2*/
+.image2
+{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1rem;
+    width: 44.9%;
+    display: flexbox;
+    position:relative;
+    left: 35.8rem;
+    bottom: 14rem; 
+}
 /* LOGO */
 .logo1
 {
