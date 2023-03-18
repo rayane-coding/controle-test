@@ -269,73 +269,76 @@ body
 .debutant
 {
     color: white;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-triple-gold-light-line-arrow-direction-dark-grey-modern-luxury-futuristic-background_33869-1721.jpg);
     display: inline-block;
     margin-top: 0rem;
     margin-left: 0;
     position: relative;
-    text-align: left;
-    width: 33%;
+    width: 32%;
     border-color: rgb(255, 255, 255);
     border: 2px;
     border-style: solid;
+    border-right: none;
+    border-bottom: none;
     border-radius: 1em;
-    height: 25%;
     float: none;
-    bottom: 2rem;
+    top: 3rem;
+    right: 1rem;
+    
 }
 .debutant h4
 {
-    color:white;
+    color: darkorange;
+    font-size: medium;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .intermédiaire
 {
-    text-align: left;
     color: white;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-triple-gold-light-line-arrow-direction-dark-grey-modern-luxury-futuristic-background_33869-1721.jpg);
     display: inline-block;
     margin-top: 0rem;
     margin-left: 0;
     position: relative;
-    width: 25%;
-    border-color: rgb(255, 255, 255);
-    border: 2px;
-    border-style: solid;
-    border-radius: 1em;
+    width: 32%;
     margin: auto;
     float: none;
-    left: 27rem;
-    top: 2rem;
+    top: 5rem;
 }
 
 .intermédiaire h4
-{
+{   
+    color: darkorange;
+    font-size: medium;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .confirmé
 {
+    display: inline-block;
     color: white;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-triple-gold-light-line-arrow-direction-dark-grey-modern-luxury-futuristic-background_33869-1721.jpg);    display: inline-block;
     margin-top: 0rem;
     margin-left: 0;
     position: relative;
     text-align: center;
-    width: 33%;
+    width: 32%;
     border-color: rgb(255, 255, 255);
     font-size: small;
     border: 2px;
     border-style: solid;
     border-radius: 1em;
-    height: 25%;
+    border-top: none;
+    border-left: none;
     float: none;
-    top: 23rem;
+    top: 4.7rem;
+    left: 1rem;
 }
 .confirmé h4
 {
+    color: darkorange;
+    font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .contact
@@ -351,4 +354,8 @@ body
     border: 2px;
     border-style: solid;
     border-radius: 1em;
+}
+.contact h4
+{
+    color: darkorange;
 }
